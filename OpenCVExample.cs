@@ -24,8 +24,8 @@ namespace OpenCVSharpExample
         public void OpenCVInstance()
         {
            var x= JsonConvert.DeserializeObject<EngineDefaultConstruct>(def);
-            Mat mat = Cv2.ImRead(@"D:\Data\Projects\Samples\OpenCVSharpExample\OpenCVSharpExample\0_BL_3.pdf.jpg", ImreadModes.Grayscale);
-            Mat mat1 = Cv2.ImRead(@"D:\Data\Projects\Samples\OpenCVSharpExample\OpenCVSharpExample\0_BL_3.pdf.jpg", ImreadModes.Color);
+            Mat mat = Cv2.ImRead(@"D:\Data\Projects\Samples\OpenCVSharpExample\0_BL_3.pdf.jpg", ImreadModes.Grayscale);
+            Mat mat1 = Cv2.ImRead(@"D:\Data\Projects\OpenCVSharpExample\OpenCVSharpExample\0_BL_3.pdf.jpg", ImreadModes.Color);
 
             ExtractTextRect(mat, x);
 
