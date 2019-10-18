@@ -8,7 +8,7 @@ namespace OpenCVSharpExample
         {
             Console.WriteLine("Hello World!");
             OpenCVExample openCV = new OpenCVExample();
-            openCV.OpenCVInstnce();
+            openCV.OpenCVInstance1();
             Console.ReadLine();
         }
     }
